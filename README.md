@@ -26,6 +26,34 @@ Claude Code 上で次を実行します。
 
 > Web 取得を行うため、Claude Code 側で WebFetch / WebSearch 系ツールが使える環境が必要です。
 
+## アップデート
+
+インストール済みのプラグインは取得時点のスナップショットです。最新版を反映するには、
+マーケットプレイスのメタデータを更新してから再インストールします。
+
+```
+/plugin marketplace update yamaha-network-docs
+/plugin install yamaha-network-docs
+/reload-plugins
+```
+
+- `marketplace update` で最新のリポジトリ内容を取得し、`install`（再実行）で反映します。
+- うまく切り替わらない場合は、一度アンインストールしてから入れ直してください。
+
+  ```
+  /plugin uninstall yamaha-network-docs
+  /plugin install yamaha-network-docs
+  /reload-plugins
+  ```
+
+- GUI から行う場合は `/plugin` メニュー → 該当プラグイン → update/reinstall でも同様です。
+
+## アンインストール
+
+```
+/plugin uninstall yamaha-network-docs
+```
+
 ## ライセンス
 
 [MIT](./LICENSE) © 2026 akchan
