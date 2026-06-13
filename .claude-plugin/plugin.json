@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "yamaha-network-docs",
+  "version": "0.1.0",
+  "description": "ヤマハネットワーク機器（RTX/NVR/vRX ルーター、SWX スイッチ、WLX 無線AP）の公式コマンドリファレンスと設定例集を、出典URL付きで参照・引用するスキル。",
+  "author": {
+    "name": "akchan"
+  },
+  "homepage": "https://github.com/akchan/yamaha-network-docs",
+  "repository": "https://github.com/akchan/yamaha-network-docs",
+  "license": "MIT",
+  "keywords": [
+    "yamaha",
+    "rtx",
+    "nvr",
+    "vrx",
+    "swx",
+    "wlx",
+    "network",
+    "router",
+    "switch",
+    "wireless-ap",
+    "command-reference"
+  ]
+}
