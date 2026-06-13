@@ -4,13 +4,13 @@
   "owner": {
     "name": "akchan"
   },
-  "description": "ヤマハネットワーク機器（RTX/NVR/vRX・SWX・WLX）の公式ドキュメント参照スキルを配布する単一プラグイン・マーケットプレイス。",
+  "description": "ヤマハネットワーク機器（RTX/NVR/vRX・SWX・WLX）の YAMAHA ドキュメント参照スキルを配布する単一プラグイン・マーケットプレイス。",
   "plugins": [
     {
       "name": "yamaha-network-docs",
       "source": "./",
       "version": "0.1.0",
-      "description": "ヤマハ公式コマンドリファレンス・設定例集を出典URL付きで参照・引用するスキル。"
+      "description": "YAMAHA のコマンドリファレンス・設定例集を出典URL付きで参照・引用するスキル。"
     }
   ]
 }
