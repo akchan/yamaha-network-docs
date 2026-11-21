@@ -9,7 +9,7 @@
     {
       "name": "yamaha-network-docs",
       "source": "./",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "description": "YAMAHA のコマンドリファレンス・設定例集を出典URL付きで参照・引用するスキル。"
     }
   ]
